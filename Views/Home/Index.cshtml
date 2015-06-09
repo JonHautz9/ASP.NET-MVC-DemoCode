@@ -1,0 +1,23 @@
+﻿@model List<HelloMVC.Models.Car>       
+@{                                          //cshtml extension works with Razor view engine, aspx extension works with ASPX view engine
+                                            
+                                            //@model List<HelloMVC.Models.Car> Tells Index.cshtml the strong type to be used in rest of the Razor View
+    ViewBag.Title = "Jon's MVC Demo Page";  //The dynamic property 'Title' will be used in the _Layout.cshtml
+}                                   
+
+<h2>Index / View</h2>
+
+<h3>HTML heading 3</h3>
+                                            @{//'@' symbol means Razor syntax is being injected
+                                              //data can be injected from controller to view via the ViewBag or the Model
+                                            }
+<p>@ViewBag.Value</p>                       
+                                            
+
+@foreach (var car in @Model)                 
+{
+    <p>@car.ID | @car.Make | @car.Model</p>
+}
+@{
+    //The runtime of ASP.NET MVC prevents direct access to specific folder contents (i.e. URL/Views/Home/Index.cshtml)
+}
