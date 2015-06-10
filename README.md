@@ -1,5 +1,5 @@
 # ASP.NET-MVC-DemoCode
-The code in this example uses the ASP.NET MVC framework.
+The code in this example uses the ASP.NET MVC framework. It should also be noted that this code uses the Razor view engine.
 
 There is a lot of code in this example but you need only refer to these specific files for my documentation.
 
