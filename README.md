@@ -8,3 +8,5 @@ The comments in Models/HelloModel.cs, Views/Home/Index.cshtml, and Controllers/H
 The comments in App_Start/Routingconfig.cs give a brief explaination of the routing system and the comments in Views/Shared/_Layout.cshtml explain the versatility of the layout page.
 
 Also in Models/Products.cs there is an example of a data notation.
+
+You can find a video demonstrationg this code at https://www.youtube.com/watch?v=kUQA0JDhwso
